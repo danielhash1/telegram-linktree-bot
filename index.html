@@ -80,10 +80,26 @@
           >
         </li>
 
-        <a id="admin-access-link" href="https://t.me/timelocker"
-          >Запросити доступ у адмiна</a
-        >
+        <button id="admin-access-link" onclick="sendCommandToTelegram()">
+          Запросити доступ у адмiна
+        </button>
       </ul>
     </main>
   </body>
+  <script>
+    function sendCommandToTelegram() {
+      // Замените 'YOUR_BOT_USERNAME' на актуальное имя вашего бота
+      var botUsername = "hxbookings_bot";
+
+      // Замените 'YOUR_COMMAND' на фактическую команду, которую вы хотите отправить
+      var command = "/cf7tg_start";
+
+      // Создаем ссылку для отправки команды в бота
+      var telegramLink =
+        "https://t.me/" + botUsername + "?start=" + encodeURIComponent(command);
+
+      // Открываем ссылку в новом окне или в том же окне
+      window.open(telegramLink, "_blank");
+    }
+  </script>
 </html>

@@ -24,9 +24,24 @@ main {
 
 #admin-access-link {
   background-color: #219a52;
+  width: 70%;
+  box-shadow: 0 0 10px #161616;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  color: #ffffff; /* Цвет текста кнопки (замените на свой) */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
 }
 #admin-access-link:hover {
   background-color: #106732;
+  cursor: pointer;
 }
 
 /* Style the navigation list */
