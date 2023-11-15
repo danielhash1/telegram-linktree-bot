@@ -12,6 +12,7 @@ main {
   max-width: 600px;
   margin: 50px auto;
   text-align: center; /* Center the content */
+  list-style: none;
 }
 
 #logo {
@@ -21,11 +22,18 @@ main {
   margin-bottom: 1em;
 }
 
+#admin-access-link {
+  background-color: #219a52;
+}
+#admin-access-link:hover {
+  background-color: #106732;
+}
+
 /* Style the navigation list */
 ul {
-  list-style: none;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 /* Style the list items */
